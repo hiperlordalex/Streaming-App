@@ -1,0 +1,12 @@
+{
+  "zookeeper": {
+    "zk_host": "zk-host",
+    "zk_port": 2181
+  },
+  "kafka_topics": {
+    "kafka_topic_jmxtrans": "jmxtrans",
+    "kafka_topic_logs":"logs"
+  }
+
+
+  }
