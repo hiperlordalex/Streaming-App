@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="log-analyzer" />
+        <module name="metric-analyser" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="log-analyzer" target="1.5" />
+      <module name="metric-analyser" target="1.5" />
       <module name="streaming-app" target="1.5" />
     </bytecodeTargetLevel>
   </component>
